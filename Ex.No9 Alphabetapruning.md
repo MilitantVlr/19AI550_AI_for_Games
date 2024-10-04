@@ -1,21 +1,20 @@
-# Ex.No: 5  Implementation of Jumping behavior 
+# Ex.No: 9   Implementation of Alpha Beta Pruning 
 ### DATE: 06/09/2024                                                                             
 ### REGISTER NUMBER : 212221040145
 ### AIM: 
-To write a python program to simulate Jumbing behavior. 
-### Algorithm:
+Write a Alpha beta pruning algorithm to find the optimal value of MAX Player from the given graph.
+### Steps:
 1. Start the program
-2. Import the necessary modules
-3. Initiate the pygame engine and window
-4. Specify the necessary parameter for player height,depth,gravity,jump power. 
-5. Create a game loop to simulate the continuous behavior.
-6. If Quit button is pressed then quit the pygame window.
-7. Move the player left when left button is pressed
-8. Move the player right when right button is pressed
-9. If space bar is pressed then enable the jump by increasing y axis value.
-10. land the player and display the player at every timestep
-11.  Stop the program
- ### Program:
+2. Initially  assign MAX and MIN value as 1000 and -1000.
+3.  Define the minimax function  using alpha beta pruning
+4.  If maximum depth is reached then return the score value of leaf node. [depth taken as 3]
+5.  In Max player turn, assign the alpha value by finding the maximum value by calling the minmax function recursively.
+6.  In Min player turn, assign beta value by finding the minimum value by calling the minmax function recursively.
+7.  Specify the score value of leaf nodes and Call the minimax function.
+8.  Print the best value of Max player.
+9.  Stop the program. 
+
+### Program:
 
 ```
 # Define a large negative and positive value to represent infinity
@@ -61,18 +60,10 @@ if __name__ == "__main__":
 
 ```
 
-
-
-
-
-
-
-
-
 ### Output:
 
 ![AlphaBetaPruning](https://github.com/user-attachments/assets/17ebc31a-b42c-4730-8193-bc649f23dbac)
 
 
 ### Result:
-Thus the simple jumping behavior  was implemented.
+Thus the best score of max player was found using Alpha Beta Pruning.
