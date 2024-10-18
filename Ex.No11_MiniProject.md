@@ -1,4 +1,4 @@
-# Ex.No: 11  Mini Project 
+# Ex.No: 11  Design of Car Game using Heuristic Distance-Based  AI for Proximity 
 ### DATE: 04/10/2024                                                                           
 ### REGISTER NUMBER : 212221040145
 ### AIM: 
