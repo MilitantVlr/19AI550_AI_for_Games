@@ -1,5 +1,5 @@
 # Ex.No: 11  Design of Car Game using Heuristic Distance-Based  AI for Proximity 
-### DATE: 04/10/2024                                                                           
+### DATE: 25/10/2024                                                                           
 ### REGISTER NUMBER : 212221040145
 ### AIM: 
 To write a Python program to simulate the car racing game using Pygame.
